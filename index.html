@@ -1,76 +1,65 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Calculator</title>
-	<link rel="stylesheet" href="style.css">
-	<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <meta name="description" content="Calculator make it by TS and SASS.">
+    <meta name="author" content="Made by 11ife">
+    <meta name="title" content="Calculator">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-	<main>
-	<div class="calculator">
-		<div class="display">
-			<div class="operations"></div>
-			<div class="result"></div>
-		</div>
-		<div class="keyboard">
-			<div class="action clean">AC</div>
-			<div class="action backspace">C</div>
-			<div class="action end">=</div>
-			<div class="action comma">,</div>
-			<div class="action history">H</div>
-			<div class="action previous">ANS</div>
-			<div class="key key1">1</div>
-			<div class="key key2">2</div>
-			<div class="key key3">3</div>
-			<div class="key key4">4</div>
-			<div class="key key5">5</div>
-			<div class="key key6">6</div>
-			<div class="key key7">7</div>
-			<div class="key key8">8</div>
-			<div class="key key9">9</div>
-			<div class="key key0">0</div>
-			<div class="operation divide">÷</div>
-			<div class="operation multiple">x</div>
-			<div class="operation minus">-</div>
-			<div class="operation add">+</div>
-		</div>
-	</div>
-	<div class="line"></div>
-	<div class="history-mark">
-		<div class="history">
-			<div class="step first">
-				primero
-			</div>
-			<div class="step second">
-				segundo
-			</div>
-			<div class="step third">
-				tercero
-			</div>
-			<div class="step fourth">
-				cuarto
-			</div>
-			<div class="step fiveth">
-				quinto
-			</div>
-			<div class="step sixth">
-				sexto
-			</div>
-			<div class="step seventh">
-				septimo
-			</div>
-			<div class="step eighth">
-				octavo
-			</div>
-			<div class="step nineth">
-				noveno
-			</div>
-		</div>
-	</div>
-</main>
-	<script src="code.js"></script>
+    <main>
+        <div class="memory"></div>
+        <div class="second-row">
+            <div class="advanced"></div>
+            <div class="calculator">
+                <div class="display">
+                    <div class="displayOperations"></div>
+                    <div class="displayResult"></div>
+                </div>
+                <div class="buttons">
+                    <div class="clearAll option">AC</div>
+                    <div class="clearDisplay option">C</div>
+                    <div class="backspace option">B</div>
+                    <div class="division operation">÷</div>
+                    <div class="multi operation">x</div>
+                    <div class="minus operation">-</div>
+                    <div class="add operation">+</div>
+                    <div class="result operation">=</div>
+                    <div class="zero number">0</div>
+                    <div class="one number">1</div>
+                    <div class="two number">2</div>
+                    <div class="three number">3</div>
+                    <div class="four number">4</div>
+                    <div class="five number">5</div>
+                    <div class="six number">6</div>
+                    <div class="seven number">7</div>
+                    <div class="eight number">8</div>
+                    <div class="nine number">9</div>
+                </div>
+            </div>
+            <div class="history-mark">
+                <div class="history">
+                    <div class="first step"></div>
+                    <div class="second step"></div>
+                    <div class="third step"></div>
+                    <div class="fourth step"></div>
+                    <div class="fifth step"></div>
+                    <div class="sixth step"></div>
+                    <div class="seventh step"></div>
+                    <div class="eighth step"></div>
+                    <div class="nineth step"></div>
+                </div>
+            </div>
+        </div>
+        <div class="select-mem"></div>
+    </main>
 </body>
+
 </html>
